@@ -1,0 +1,56 @@
+1 Zamiana cyfr w liczbie
+Napisz funkcję reverse_two_digits(n), która zamienia miejscami każdą parę cyfr.
+Przykład:
+316498 → 134689
+======================================================================================
+
+2 Palindromy
+Napisz program, który sprawdzi, czy dany napis jest taki sam od przodu i od tyłu.
+Przykład:
+kajak → TAK, python → NIE
+
+======================================================================================
+
+3 Słowa z literą „a” na drugiej pozycji
+Z wczytanej listy słów wypisz te, które mają literę a na drugiej pozycji.
+
+======================================================================================
+
+4 Słowa z literą „k” występującą dokładnie 2 razy
+Z wczytanej listy słów wypisz te, które mają dokładnie dwa wystąpienia litery k.
+
+======================================================================================
+
+5 Fragment „k?t”
+Wczytaj plik slowa.txt i wypisz wszystkie słowa, które zawierają fragment k?t,
+gdzie ? oznacza dowolną literę.
+Przykład:
+alamakota, brokat → TAK
+krata → NIE
+
+======================================================================================
+
+6 Słowa z literą dominującą
+Z pliku slowa.txt wypisz słowa, w których jedna litera występuje na co najmniej połowie pozycji.
+Przykład:
+owocowo → TAK
+ambaras → NIE
+
+======================================================================================
+
+7 Analiza lotu drona
+Z pliku lot.txt zawierającego przemieszczenia drona w formacie dx dy
+oblicz współrzędne końcowe lotu, sumując wszystkie przemieszczenia.
+Przykład danych:
+3000 2000  
+2000 9000  
+5000 -7000  
+5000 4000  
+3000 6000  
+2000 -14000
+
+======================================================================================
+
+8 NWD przemieszczeń drona
+Dla każdego wiersza pliku lot.txt oblicz największy wspólny dzielnik (NWD) wartości bezwzględnych |dx| i |dy|.
+Podaj, ile z nich ma NWD > 1.

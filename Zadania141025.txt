@@ -1,0 +1,106 @@
+1 suma cyfr liczby
+Napisz program, który wczyta liczbę i wypisze sumę jej cyfr.
+Przykład:
+n = 451 → 10
+
+======================================================================================
+
+2 Wczytaj liczbę i wypisz największą cyfrę w niej zawartą.
+Przykład:
+n = 9473 → 9
+
+======================================================================================
+
+3 parzyste i nieparzyste
+Wczytaj 5 liczb i wypisz, ile z nich jest parzystych, a ile nieparzystych.
+
+======================================================================================
+
+4 liczenie liter
+Wczytaj napis i policz, ile razy występuje w nim litera „a”.
+
+======================================================================================
+
+5 zamiana liter
+Wczytaj napis i wypisz go z zamienionymi literami: a → @, e → 3, o → 0.
+Przykład:
+alabama → @l@b@m@
+
+======================================================================================
+
+6 odwracanie napisu
+Napisz funkcję reverse(s), która odwraca napis.
+Przykład:
+python → nohtyp
+
+======================================================================================
+
+7 najdłuższe słowo
+Z listy słów wypisz to, które jest najdłuższe.
+Przykład:
+["ala", "makarena", "kot"] → makarena
+
+======================================================================================
+
+8 FizzBuzz
+Wypisz wszystkie liczby od 1 do 100, jednak jeżeli liczba jest podzielna przez:
+trzy – wypisz „Fizz”,
+pięć – wypisz „Buzz”,
+trzy i pięć wypisz „FizzBuzz”.
+
+======================================================================================
+
+9 liczby pierwsze
+Napisz program, który sprawdza czy dana liczba jest liczbą pierwszą
+
+======================================================================================
+
+10 średnia liczb
+Wczytaj listę liczb i oblicz ich średnią.
+Przykład:
+[4, 6, 8] → 6.0
+
+======================================================================================
+
+11 minimum i maksimum
+Z listy liczb wypisz najmniejszą i największą.
+
+======================================================================================
+
+12 unikalne elementy
+Z listy wypisz tylko elementy, które nie powtarzają się.
+Przykład:
+[1, 2, 2, 3, 3, 4] → [1, 4]
+
+======================================================================================
+
+13 zliczanie wierszy w pliku
+Policz, ile wierszy znajduje się w pliku slowa.txt
+
+======================================================================================
+
+14 długość najdłuższego słowa
+Wczytaj plik slowa.txt i podaj długość najdłuższego słowa.
+
+======================================================================================
+
+15 słowa zaczynające się na literę „a”
+Wypisz wszystkie słowa z pliku slowa.txt, które zaczynają się na literę a
+
+======================================================================================
+
+16 liczby Fibonacciego
+Napisz funkcję fib(n) zwracającą n-tą liczbę Fibonacciego
+(Ciąg fibonnacciego to ciąg, w którym wartość liczby jest sumą dwóch poprzednich liczb. np:
+{1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987…}
+
+======================================================================================
+
+17 zgadywanie liczby
+Program losuje liczbę z zakresu 1–20, użytkownik ma 5 prób, żeby zgadnąć.
+
+======================================================================================
+
+18 kalkulator
+Prosty kalkulator przyjmujący dwa liczby i znak działania (+, -, *, /).
+
