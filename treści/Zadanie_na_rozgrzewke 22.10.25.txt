@@ -1,0 +1,30 @@
+1. Znajdź błędy w kodzie:
+a) answers = ['Yes', 'No', 'Yes', 'No', 'No'
+
+b) my_answer = input("What is your answer?")
+   answers = ['Yes', 'No', 'Yes' 'No' my_answer]
+
+c) my_answer = input(What is your answer?)
+   answers = ['Yes', 'No', 'Yes', 'No', my_answer]
+
+d) my_answer = input["What is your answer?"]
+   answers = ['Yes', 'No', 'Yes', 'No', my_answer]
+
+e) age = input("Podaj swój wiek:")
+   print("Masz" age "lat")
+
+f) result = 10 / (5 - 5)
+
+g) name = input("Jak masz na imię?)
+   print("Cześć, " + name)
+
+h)  price = float(input("Podaj cenę: "))
+   print("Cena po rabacie:", price * 0.9
+
+i) x = 10
+   if x > 5
+       print("Większe niż 5")
+
+j) for i in range[5]:
+       print(i)
+
