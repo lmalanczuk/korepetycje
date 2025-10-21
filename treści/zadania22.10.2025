@@ -1,0 +1,87 @@
+Typy danych, zmienne, operatory
+🟢 Łatwe
+
+Oblicz obwód prostokąta
+Wczytaj długość i szerokość prostokąta, oblicz jego obwód.
+(Podpowiedź: obwód = 2 × (a + b))
+
+
+Konwersje typów
+Zmienna x = "15", y = 4.
+Zamień x na liczbę i oblicz x + y.
+
+🟡 Średnie
+
+Reszta z dzielenia
+Wczytaj liczbę całkowitą i wypisz jej resztę z dzielenia przez 7.
+
+Zamiana temperatury
+Wczytaj temperaturę w stopniach Celsjusza i przelicz na Fahrenheity (F = 9/5 *C + 32).
+
+Wartość bezwzględna
+Wczytaj liczbę i wypisz jej wartość bezwzględną (nie używaj funkcji abs(), tylko warunek).
+
+🔴 Trudne
+
+Cena po rabacie
+Wczytaj cenę i procent rabatu. Oblicz nową cenę i zaokrąglij do dwóch miejsc po przecinku.
+
+Instrukcje warunkowe i pętle
+🟢 Łatwe
+
+Parzysta czy nieparzysta?
+Wczytaj liczbę i sprawdź, czy jest parzysta.
+
+Największa z dwóch liczb
+Wczytaj dwie liczby i wypisz większą.
+
+Wypisz liczby od 1 do 10
+Użyj pętli for lub while.
+
+🟡 Średnie
+
+Liczby podzielne przez 3
+Wypisz wszystkie liczby od 1 do 100 podzielne przez 3.
+
+Suma i ilość dodatnich liczb
+Wczytuj liczby tak długo, aż użytkownik wpisze 0. Na koniec wypisz sumę i liczbę dodatnich.
+
+Liczby w odwrotnej kolejności
+Wczytaj liczbę n i wypisz liczby od n do 1 co 1 (odwrotnie).
+
+🔴 Trudne
+
+Silnia liczby n
+Wczytaj n i oblicz n! (pętlą).
+
+Zgadnij liczbę
+Program losuje liczbę z zakresu 1–100. Użytkownik zgaduje, a program mówi „za dużo” lub „za mało”, aż trafisz.
+
+Funkcje i parametry
+🟢 Łatwe
+
+Funkcja suma(a, b)
+Zwraca sumę dwóch liczb.
+
+Funkcja kwadrat(x)
+Zwraca kwadrat liczby.
+
+Funkcja powitanie(imie)
+Wypisuje „Cześć, <imię>!”.
+
+🟡 Średnie
+
+Funkcja max3(a, b, c)
+Zwraca największą z trzech liczb.
+
+Funkcja czy_parzysta(n)
+Zwraca True jeśli liczba parzysta, inaczej False.
+
+
+🔴 Trudne
+
+Funkcja suma_cyfr(n)
+Zwraca sumę cyfr liczby n (np. 1234 → 10).
+
+Funkcja czy_palindrom(tekst)
+Zwraca True, jeśli napis czytany od tyłu jest taki sam.
