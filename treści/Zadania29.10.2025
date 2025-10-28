@@ -1,0 +1,107 @@
+🟢 ŁATWE
+
+1. Odczyt pliku linia po linii
+Napisz program, który otwiera plik tekst.txt i wypisuje każdą linię w konsoli.
+
+2. Zliczanie linii w pliku
+Policz, ile wierszy znajduje się w pliku tekst.txt.
+
+3. Zapis tekstu do pliku
+Wczytaj od użytkownika kilka zdań i zapisz je do pliku wynik.txt – każde zdanie w nowej linii.
+
+
+🟡 ŚREDNIE
+
+1. Policz słowa w pliku
+Wczytaj plik tekst.txt, policz, ile wszystkich słów zawiera (słowo to ciąg znaków oddzielony spacją lub znakiem nowej linii).
+
+2. Najdłuższe słowo
+Wczytaj plik tekst.txt i wypisz najdłuższe słowo, które się w nim pojawia.
+
+3. Kopiowanie tylko liczb
+Z pliku dane.txt (w którym w każdej linii może być tekst lub liczba) zapisz do liczby.txt tylko te linie, które zawierają wyłącznie cyfry.
+
+
+
+🔴 TRUDNE
+
+1. Sumowanie liczb z pliku
+W pliku liczby.txt znajduje się po jednej liczbie w każdej linii. Wczytaj wszystkie liczby, oblicz ich sumę, średnią i największą wartość, a wyniki zapisz w wyniki.txt.
+
+2. Filtracja danych
+W pliku temperatury.txt zapisano temperatury (po jednej w linii).
+Zapisz do ujemne.txt tylko te temperatury, które są mniejsze niż 0°C.
+
+3. Analiza tabeli danych
+W pliku osoby.txt znajdują się dane w formacie:
+
+Jan;Kowalski;28
+Anna;Nowak;35
+Piotr;Zieliński;19
+
+Wypisz do pliku pelnoletni.txt imiona i nazwiska tylko tych osób, które mają co najmniej 18 lat.
+
+
+🧩 ROZSZERZENIE — typowe dla matury (dla zaawansowanych uczniów)
+
+🟢 Łatwe
+
+1. Tworzenie pliku wynikowego
+Skopiuj dane z wejscie.txt do wyniki.txt, ale dodaj numer linii przed każdym wierszem.
+(np. 1. Ala ma kota)
+
+🟡 Średnie
+
+1. Zliczanie wystąpień słów
+W pliku tekst.txt policz, ile razy pojawia się każde słowo. Wynik zapisz w postaci:
+
+ala - 3
+kot - 2
+pies - 1
+
+2. Średnia ocen z pliku CSV
+W pliku oceny.csv masz dane:
+
+imie;nazwisko;ocena
+Jan;Kowalski;4
+Anna;Nowak;5
+Piotr;Zieliński;3
+
+Oblicz średnią ocen wszystkich uczniów.
+
+🔴 Trudne
+
+1. Zadanie maturalne: analiza danych dziennych
+W pliku dane.txt masz dane:
+
+data;liczba
+2023-01-01;10
+2023-01-02;15
+2023-01-03;7
+
+Oblicz:
+-sumę liczb,
+-średnią,
+-dzień, w którym liczba była największa.
+
+Zapisz wyniki w pliku wyniki.txt w postaci:
+
+Suma: ...
+Średnia: ...
+Maksymalna liczba: ... w dniu ...
+
+
+2. Wielopliki – scalanie danych
+Masz pliki czesc1.txt, czesc2.txt, czesc3.txt.
+Połącz ich zawartość w jeden plik polaczony.txt, dodając nagłówek:
+--- POCZĄTEK PLIKU X --- przed zawartością każdego z nich.
+
+3. Zadanie bonusowe: analiza logów
+W pliku logi.txt zapisano:
+
+2024-01-01 12:04:13 - LOGIN
+2024-01-01 12:05:00 - LOGOUT
+2024-01-01 12:06:17 - LOGIN
+2024-01-01 12:07:00 - LOGOUT
+
+Oblicz, ile było logowań i ile wylogowań, a wyniki zapisz do statystyki.txt.
