@@ -1,0 +1,102 @@
+🟢 Poziom 1 – Podstawy (łatwe)
+
+1. Odczyt i wypisanie zawartości pliku
+W pliku wiersz.txt znajduje się kilka wierszy tekstu.
+Wypisz zawartość pliku w konsoli.
+
+💡 Wskazówka: użyj open() i pętli for.
+
+2. Wypisywanie bez pustych linii
+W pliku tekst.txt każda linia kończy się znakiem nowej linii.
+Wypisz wszystkie linie, ale bez pustych wierszy.
+
+💡 Podpowiedź: sprawdź if line.strip():
+
+3. Zliczanie liczby linii
+W pliku dane.txt zapisano dane tekstowe.
+Policz, ile linii zawiera plik i wypisz wynik w konsoli.
+
+💡 Użyj len(f.readlines()).
+
+🟡 Poziom 2 – Przetwarzanie danych (średnie)
+
+4. Sumowanie liczb z pliku
+W pliku liczby.txt w każdej linii znajduje się jedna liczba całkowita.
+Oblicz:
+
+sumę liczb,
+
+średnią,
+
+największą liczbę.
+Wyniki zapisz w pliku wyniki.txt.
+
+5. Filtrowanie danych
+W pliku temperatury.txt znajdują się temperatury (jedna liczba w linii).
+Zapisz do pliku ujemne.txt tylko te wartości, które są mniejsze od zera.
+
+6. Analiza tabeli danych
+W pliku osoby.txt znajdują się dane w formacie:
+
+Jan;Kowalski;28
+Anna;Nowak;35
+Piotr;Zieliński;19
+Julia;Lewandowska;17
+
+
+Wypisz do pliku pelnoletni.txt imiona i nazwiska osób, które mają co najmniej 18 lat.
+
+7. Liczenie wystąpień słowa
+W pliku tekst.txt znajduje się dowolny tekst.
+Policz, ile razy występuje w nim słowo „Python” (niezależnie od wielkości liter).
+Wypisz wynik w konsoli.
+
+🔵 Poziom 3 – Zaawansowane przetwarzanie (trudniejsze)
+
+8. Tworzenie raportu z danych CSV
+W pliku sprzedaz.csv dane zapisano w formacie:
+
+produkt;cena;ilosc
+Telefon;1200;5
+Laptop;3500;2
+Mysz;100;10
+
+
+Dla każdego wiersza oblicz wartość sprzedaży (cena * ilość)
+i zapisz do nowego pliku raport.csv w formacie:
+
+produkt;wartosc
+Telefon;6000
+Laptop;7000
+Mysz;1000
+
+
+9. Łączenie dwóch plików
+W pliku imiona.txt są imiona, a w pliku nazwiska.txt – nazwiska (po jednej linii w każdym):
+
+imiona.txt:     nazwiska.txt:
+Jan              Kowalski
+Anna             Nowak
+Piotr            Zieliński
+
+
+Utwórz plik osoby.txt, w którym każda linia ma format:
+Imię Nazwisko
+(np. Jan Kowalski).
+
+10. Analiza logów (trudne)
+W pliku logi.txt znajdują się wpisy w formacie:
+
+2025-11-05 10:32:14 LOGIN user1
+2025-11-05 10:35:21 LOGOUT user1
+2025-11-05 11:12:00 LOGIN user2
+2025-11-05 11:45:18 LOGIN user3
+
+
+Napisz program, który:
+
+policzy, ilu różnych użytkowników się zalogowało,
+
+wypisze ich nazwy w kolejności wystąpienia,
+
+zapisze wynik do pliku statystyka.txt.

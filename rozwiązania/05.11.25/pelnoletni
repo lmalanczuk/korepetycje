@@ -1,0 +1,21 @@
+# 6_pelnoletni.py
+def main():
+    wyniki = []
+    with open("osoby.txt", "r", encoding="utf-8") as f:
+        for line in f:
+            s = line.strip()
+            if not s:
+                continue
+            try:
+                imie, nazwisko, wiek = s.split(";")
+                if int(wiek) >= 18:
+                    wyniki.append(f"{imie} {nazwisko}")
+            except ValueError:
+                # linia uszkodzona lub brak wieku – pomijamy
+                pass
+
+    with open("pelnoletni.txt", "w", encoding="utf-8") as out:
+        out.write("\n".join(wyniki))
+
+if __name__ == "__main__":
+    main()
