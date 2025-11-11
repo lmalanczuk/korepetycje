@@ -1,0 +1,89 @@
+🟢 ŁATWE
+1️⃣ Podwojenie liczb
+
+Zadanie:
+Dla listy liczby = [1, 2, 3, 4, 5] utwórz nową listę, w której każda liczba będzie pomnożona przez 2.
+
+Oczekiwany wynik: [2, 4, 6, 8, 10]
+
+Wskazówka: użyj i * 2 for i in liczby.
+
+2️⃣ Liczby parzyste
+
+Zadanie:
+Z listy liczby = [3, 6, 7, 8, 9, 12] wybierz tylko liczby parzyste.
+
+Oczekiwany wynik: [6, 8, 12]
+
+Wskazówka: warunek if i % 2 == 0.
+
+3️⃣ Długości słów
+
+Zadanie:
+Z listy slowa = ["kot", "pies", "papuga"] utwórz listę długości tych słów.
+
+Oczekiwany wynik: [3, 4, 6]
+
+Wskazówka: użyj len(i).
+
+🟡 ŚREDNIE
+4️⃣ Kwadraty liczb większych od 5
+
+Zadanie:
+Z listy liczby = [2, 4, 6, 8, 10] utwórz nową listę zawierającą kwadraty tylko tych liczb, które są większe niż 5.
+
+Oczekiwany wynik: [36, 64, 100]
+
+Wskazówka: if i > 5, a wewnątrz i**2.
+
+5️⃣ Wybierz słowa zaczynające się na literę „a”
+
+Zadanie:
+Z listy slowa = ["ala", "kot", "adam", "pies", "ananas"] utwórz listę tylko tych słów, które zaczynają się na "a".
+
+Oczekiwany wynik: ["ala", "adam", "ananas"]
+
+Wskazówka: użyj i.startswith("a").
+
+6️⃣ Napisz cyfry jako stringi
+
+Zadanie:
+Utwórz listę z liczb od 1 do 10 w postaci łańcuchów tekstowych (stringów).
+
+Oczekiwany wynik: ["1", "2", "3", ..., "10"]
+
+Wskazówka: użyj str(i) i range(1, 11).
+
+🔴 TRUDNE
+7️⃣ Macierz kwadratów
+
+Zadanie:
+Utwórz listę list (macierz) z kwadratami liczb od 1 do 3.
+
+Oczekiwany wynik:
+
+[[1, 4, 9],
+ [1, 4, 9],
+ [1, 4, 9]]
+
+
+Wskazówka: list comprehension w środku list comprehension 😉
+[[i**2 for i in range(1,4)] for j in range(3)]
+
+8️⃣ Filtracja + przekształcenie
+
+Zadanie:
+Dla liczby = [-4, -2, 0, 1, 3, 5] utwórz nową listę z wartościami dodatnich liczb podniesionych do kwadratu.
+
+Oczekiwany wynik: [1, 9, 25]
+
+Wskazówka: if i > 0 i i**2.
+
+9️⃣ Odwrócone słowa dłuższe niż 3 litery
+
+Zadanie:
+Dla slowa = ["kot", "pies", "mysz", "lew", "tygrys"] utwórz nową listę z odwróconymi słowami, które mają więcej niż 3 litery.
+
+Oczekiwany wynik: ["seip", "zsym", "syrgyt"]
+
+Wskazówka: odwróć napis przez i[::-1], warunek if len(i) > 3.
